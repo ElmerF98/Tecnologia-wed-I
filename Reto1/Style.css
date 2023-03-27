@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    background-color: antiquewhite;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 3rem;
+    font-family: 'Fasthand', cursive;
+}
+.container{
+    background-color: yellow;
+    height: 45 rem;
+    display: flex;
+    font-family: initial;
+    font-size: 2rem;
+}
+.container__menu{
+    background-color: tomato;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container__contenido{
+    background-color: thistle;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
